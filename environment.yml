@@ -1,0 +1,5 @@
+name: MicMac-env
+dependencies:
+  - numpy
+  - matplotlib
+
