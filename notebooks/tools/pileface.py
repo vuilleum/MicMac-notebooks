@@ -8,3 +8,6 @@ def pileface():
 
 def zeroun():
     return np.random.randint(0,2)
+
+def de():
+    return np.random.randint(1,7)
