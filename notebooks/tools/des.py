@@ -34,7 +34,7 @@ def StringToDice(destexte):
     return des
 
 def TiragesDes(ndes=3,somme=8,nfaces=6,ntirages=100,npas=10):
-    tirages=np.zeros((ndes,ntirages),dtype=np.int)
+    tirages=np.zeros((ndes,ntirages),dtype=int)
 
     if ((somme<ndes) or (somme>nfaces*ndes)):
         raise ValueError("La valeur de l'argument somme n'est pas valide" )
